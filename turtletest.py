@@ -1,6 +1,8 @@
 import turtle
-t = turtle.Pen()
-for x in range(100):
-    t.forward(x)
-    t.left(90)
+
+t = turtle.Turtle()
+
+t.goto(100, 100)
+t.home()
+
 input("Press enter")
